@@ -1,4 +1,101 @@
 body
 {
-	
+	margin: 0;
+	padding: 0;
+	font-family:arial,sans-serif;
+}
+
+ul
+{
+	overflow: hidden;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+a:hover
+{
+	text-decoration-line: underline;
+}
+
+li
+{
+	float: right;
+}
+
+li a
+{
+	display: block;
+	text-decoration-line: none;
+	padding: 12px 10px;
+	color: black;
+}
+
+div
+{
+	margin-left: 500px;
+	margin-top: 150px;
+
+}
+
+pre a
+{
+	text-decoration: none;
+}
+
+#gs
+{
+	margin-left: 170px;
+}
+
+#givetosearch 
+{
+	width: 550px;
+    padding: 12px;
+    margin-top: -20px;
+    margin-right: 16px;
+    border: 1px solid;
+    border-bottom-style: inset;
+    border-block-end-color: rgb(182, 182, 182);
+    border-left-color: rgb(230, 230, 230);
+    border-right-color: rgb(230, 230, 230);
+    border-top-color: white;
+	border-radius: 12px;
+	background-image: url("./Images/search-bar.png");
+	background-position: right;
+	outline: none;
+}
+
+input[type=text]:hover
+{
+   
+    box-shadow: 1px 1px 2px black ;
+}
+
+input[type=submit]
+{
+	box-sizing: border-box;
+	width: 140px;
+    height: 36px;
+    border: 1px solid lightgrey;
+    color: #757575;
+    font-family: arial,sans-serif;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    cursor:pointer;
+    z-index: 1;
+    border-radius: 4px;
+}
+
+#buttons
+{
+	margin-left: 130px;
+}
+
+input[type=submit]:hover
+{
+	border: 1px solid rgb(182, 182, 182);
+    color: black;
 }
